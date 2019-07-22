@@ -12,11 +12,20 @@
         <activity android:name=".TestActivity">
 
         </activity>
-        <activity android:name=".ResultActivity">
+        <activity
+                android:name=".ResultActivity"
+                android:theme="@style/AppTheme.Result"
+        >
         </activity>
-        <activity android:name=".ConstellationActivity">
+        <activity
+                android:name=".ConstellationActivity"
+                android:theme="@style/AppTheme.Constellation"
+        >
         </activity>
-        <activity android:name=".NameActivity">
+        <activity
+                android:name=".NameActivity"
+                android:theme="@style/AppTheme.Name"
+        >
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -26,6 +35,8 @@
             </intent-filter>
 
         </activity>
+
+
     </application>
 
 </manifest>
