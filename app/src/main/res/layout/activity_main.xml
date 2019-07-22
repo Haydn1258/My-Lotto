@@ -11,7 +11,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp" android:layout_weight="1" app:cardCornerRadius="8dp"
             app:cardUseCompatPadding="true" android:foreground="?attr/selectableItemBackground"
-            android:clickable="true">
+            android:clickable="true" android:id="@+id/randomCard">
         <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -38,7 +38,7 @@
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="0dp" android:layout_weight="1" android:layout_marginTop="2dp"
-            app:cardCornerRadius="8dp" app:cardUseCompatPadding="true">
+            app:cardCornerRadius="8dp" app:cardUseCompatPadding="true" android:id="@+id/constellationCard">
         <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -65,7 +65,7 @@
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="0dp" android:layout_weight="1" android:layout_marginTop="2dp"
-            app:cardCornerRadius="8dp" app:cardUseCompatPadding="true">
+            app:cardCornerRadius="8dp" app:cardUseCompatPadding="true" android:id="@+id/nameCard">
         <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
